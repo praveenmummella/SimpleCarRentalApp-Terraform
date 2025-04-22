@@ -2,10 +2,10 @@ version: 0.2
 
 env:
   variables:
-    REPORT_BUCKET: simplecarrentalapp-devsecops-reports
-    REPORT_PATH: SimpleCarRentalApp-P/reports
-    SNS_TOPIC_ARN: arn:aws:sns:us-east-1:637061300326:SimpleCarRentalApp-CodeBuild-Notifications
-
+    REPORT_BUCKET: devsecopspocreports
+    REPORT_PATH: SSimpleCarRentalApp-Terraform/reports
+    SNS_TOPIC_ARN: arn:aws:sns:us-east-1:310188667383:SimpleCarRentalApp-CodeBuild-Notifications
+    
 phases:
   install:
     runtime-versions:
