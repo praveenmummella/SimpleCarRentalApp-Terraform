@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    REPORT_BUCKET: simplecarrentalapp-devsecops-reports
+    REPORT_BUCKET: devsecopspocreports
     REPORT_PATH: SimpleCarRentalApp-P/reports
     SNS_TOPIC_ARN: arn:aws:sns:us-east-1:637061300326:SimpleCarRentalApp-CodeBuild-Notifications
 
